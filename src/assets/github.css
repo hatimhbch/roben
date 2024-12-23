@@ -1,0 +1,105 @@
+:root {
+  --github-1: #24292e;
+  --github-2: #d73a49;
+  --github-3: #6f42c1;
+  --github-4: #005cc5;
+  --github-5: #032f62;
+  --github-6: #e36209;
+  --github-7: #6a737d;
+  --github-8: #22863a;
+  --github-9: #005cc5;
+  --github-10: #735c0f;
+  --github-11: #22863a;
+  --github-12: #b31d28;
+  --github-13: #f0fff4;
+  --github-14: #ffeef0;
+}
+[data-theme='dark']{
+  --github-1: #c9d1d9;
+  --github-2: #ff7b72;
+  --github-3: #d2a8ff;
+  --github-4: #79c0ff;
+  --github-5: #a5d6ff;
+  --github-6: #ffa657;
+  --github-7: #8b949e;
+  --github-8: #7ee787;
+  --github-9: #1f6feb;
+  --github-10: #f2cc60;
+  --github-11: #aff5b4;
+  --github-12: #ffdcd7;
+  --github-13: #033a16;
+  --github-14: #67060c;
+
+}
+pre code.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 1em
+}
+code.hljs {
+  padding: 3px 5px
+}
+.hljs {
+  color: var(--github-1);
+}
+.hljs-doctag,.hljs-keyword,.hljs-meta .hljs-keyword,.hljs-template-tag,.hljs-template-variable,.hljs-type,.hljs-variable.language_ {
+  /* prettylights-syntax-keyword */
+  color: var(--github-2)
+}
+.hljs-title,.hljs-title.class_,.hljs-title.class_.inherited__,.hljs-title.function_ {
+  /* prettylights-syntax-entity */
+  color: var(--github-3)
+}
+.hljs-attr,.hljs-attribute,.hljs-literal,.hljs-meta,.hljs-number,.hljs-operator,.hljs-variable,.hljs-selector-attr,.hljs-selector-class,.hljs-selector-id {
+  /* prettylights-syntax-constant */
+  color: var(--github-4)
+}
+.hljs-regexp,.hljs-string,.hljs-meta .hljs-string {
+  /* prettylights-syntax-string */
+  color: var(--github-5)
+}
+.hljs-built_in,.hljs-symbol {
+  /* prettylights-syntax-variable */
+  color: var(--github-6)
+}
+.hljs-comment,.hljs-code,.hljs-formula {
+  /* prettylights-syntax-comment */
+  color: var(--github-7)
+}
+.hljs-name,.hljs-quote,.hljs-selector-tag,.hljs-selector-pseudo {
+  /* prettylights-syntax-entity-tag */
+  color: var(--github-8)
+}
+.hljs-subst {
+  /* prettylights-syntax-storage-modifier-import */
+  color: var(--github-1)
+}
+.hljs-section {
+  /* prettylights-syntax-markup-heading */
+  color: var(--github-9);
+  font-weight: bold
+}
+.hljs-bullet {
+  /* prettylights-syntax-markup-list */
+  color: var(--github-10)
+}
+.hljs-emphasis {
+  /* prettylights-syntax-markup-italic */
+  color: var(--github-1);
+  font-style: italic
+}
+.hljs-strong {
+/* prettylights-syntax-markup-bold */
+color: var(--github-1);
+font-weight: bold
+}
+.hljs-addition {
+  /* prettylights-syntax-markup-inserted */
+  color: var(--github-11);
+  background-color: var(--github-13)
+}
+.hljs-deletion {
+  /* prettylights-syntax-markup-deleted */
+  color: var(--github-12);
+  background-color: var(--github-14)
+}
