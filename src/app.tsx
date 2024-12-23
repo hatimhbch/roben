@@ -12,11 +12,6 @@ const BlogPost = lazy(() => import( "./components/BlogPost"));
 
 export default function App() {
 
-  function preloadPost({ params, fetchPost }) {
-    const [post] = createResource(() => params.id, fetchPost);
-    return post;
-  }
-
   return (  
     <Router root={props => (
       <MetaProvider>
@@ -34,7 +29,7 @@ export default function App() {
       <Route path='/topics' component={TopicSearch}/>
       <Route path='/topics/:topic' component={TopicDetail}/>
       <Route path='/categories' component={Articles}/>
-      <Route path='/:slug' component={BlogPost} preload={preloadPost} />
+      <Route path='/:slug' component={BlogPost} />
     </Router>
   );
 }
